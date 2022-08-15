@@ -107,7 +107,7 @@ const App = () => {
                     onToggle={toggleReminder}
                   />
                 ) : (
-                  'No Tasks Herein'
+                  <p className='specific'>No Tasks Herein! Pls add tasks.</p>
                 )}
               </>
             }
